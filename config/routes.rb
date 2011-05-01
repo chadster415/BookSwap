@@ -1,4 +1,6 @@
 Roster::Application.routes.draw do
+  resources :books
+
   resources :people
 
   # The priority is based upon order of creation:
